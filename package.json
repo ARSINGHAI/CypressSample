@@ -1,0 +1,27 @@
+{
+  "name": "cypress_test_automation",
+  "version": "1.0.0",
+  "description": "POM Automation framework with cypress ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run-dashboard": "cypress run --record --key e99aeb0f-b53e-4092-9c0e-2c885a50b2ae"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ARSINGHAI?tab=repositories"
+  },
+  "keywords": [
+    "auromation",
+    "pom",
+    "e2e"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}

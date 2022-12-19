@@ -1,0 +1,6 @@
+{
+  "watchForFileChanges": true,
+  "failOnStatusCode": false,
+  "pageLoadTimeout": 60000,
+  "projectId": "m5rkop"
+}
