@@ -23,11 +23,3 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-Cypress.Commands.add('isVisible', Selector => 
-{ 
-    cy.get(Selector).should('be.visible')
- })
-
- Cypress.Commands.add('checkText' ,(Selector,Text)=>{
-    cy.xpath(Selector).should('have.text',Text)
- })
